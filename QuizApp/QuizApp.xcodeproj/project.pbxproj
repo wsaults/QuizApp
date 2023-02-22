@@ -14,6 +14,10 @@
 		BE331C892968944C004D44E2 /* QuestionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE331C882968944C004D44E2 /* QuestionViewControllerTests.swift */; };
 		BE331C8B2968977A004D44E2 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE331C8A2968977A004D44E2 /* QuestionViewController.swift */; };
 		BE331C8D296899F8004D44E2 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE331C8C296899F8004D44E2 /* QuestionViewController.xib */; };
+		BEA93EB029A6756800CCFB9B /* ResultsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA93EAF29A6756800CCFB9B /* ResultsViewControllerTests.swift */; };
+		BEA93EB229A675EE00CCFB9B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA93EB129A675EE00CCFB9B /* ResultsViewController.swift */; };
+		BEA93EB429A6763B00CCFB9B /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA93EB329A6763B00CCFB9B /* ResultsViewController.xib */; };
+		BEA93EB629A6962B00CCFB9B /* UITableView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA93EB529A6962B00CCFB9B /* UITableView+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		BE331C882968944C004D44E2 /* QuestionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTests.swift; sourceTree = "<group>"; };
 		BE331C8A2968977A004D44E2 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		BE331C8C296899F8004D44E2 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		BEA93EAF29A6756800CCFB9B /* ResultsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewControllerTests.swift; sourceTree = "<group>"; };
+		BEA93EB129A675EE00CCFB9B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BEA93EB329A6763B00CCFB9B /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		BEA93EB529A6962B00CCFB9B /* UITableView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,8 @@
 				BE331C662968909B004D44E2 /* Info.plist */,
 				BE331C8C296899F8004D44E2 /* QuestionViewController.xib */,
 				BE331C8A2968977A004D44E2 /* QuestionViewController.swift */,
+				BEA93EB129A675EE00CCFB9B /* ResultsViewController.swift */,
+				BEA93EB329A6763B00CCFB9B /* ResultsViewController.xib */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -93,6 +103,8 @@
 			children = (
 				BE331C6F2968909C004D44E2 /* QuizAppTests.swift */,
 				BE331C882968944C004D44E2 /* QuestionViewControllerTests.swift */,
+				BEA93EAF29A6756800CCFB9B /* ResultsViewControllerTests.swift */,
+				BEA93EB529A6962B00CCFB9B /* UITableView+Helpers.swift */,
 			);
 			path = QuizAppTests;
 			sourceTree = "<group>";
@@ -181,6 +193,7 @@
 				BE331C652968909B004D44E2 /* LaunchScreen.storyboard in Resources */,
 				BE331C622968909B004D44E2 /* Assets.xcassets in Resources */,
 				BE331C8D296899F8004D44E2 /* QuestionViewController.xib in Resources */,
+				BEA93EB429A6763B00CCFB9B /* ResultsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +213,7 @@
 			files = (
 				BE331C8B2968977A004D44E2 /* QuestionViewController.swift in Sources */,
 				BE331C592968909A004D44E2 /* AppDelegate.swift in Sources */,
+				BEA93EB229A675EE00CCFB9B /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +223,8 @@
 			files = (
 				BE331C892968944C004D44E2 /* QuestionViewControllerTests.swift in Sources */,
 				BE331C702968909C004D44E2 /* QuizAppTests.swift in Sources */,
+				BEA93EB029A6756800CCFB9B /* ResultsViewControllerTests.swift in Sources */,
+				BEA93EB629A6962B00CCFB9B /* UITableView+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
